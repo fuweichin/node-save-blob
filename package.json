@@ -1,0 +1,31 @@
+{
+  "name": "node-save-blob",
+  "version": "0.1.0",
+  "description": "To save a Blob as file to the Downloads folder, for Node.js and browsers",
+  "keywords": [
+    "save-blob",
+    "download"
+  ],
+  "author": "Fuwei Chin",
+  "license": "MIT",
+  "browser": "lib/browser-save-blob.js",
+  "main": "lib/node-save-blob.js",
+  "type": "module",
+  "types": "lib/node-save-blob.d.ts",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "special-folders": "^0.1.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuweichin/node-save-blob"
+  }
+}
